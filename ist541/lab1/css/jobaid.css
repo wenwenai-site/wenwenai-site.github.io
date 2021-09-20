@@ -44,4 +44,18 @@ h1, h2 {
 	text-align: right;
 }
 
+.warning {
+		background-color: #EECBCB;
+		padding:10px;
+		border-radius:20px;
+		color: #781C75;
+	}
+
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
+
+
 
