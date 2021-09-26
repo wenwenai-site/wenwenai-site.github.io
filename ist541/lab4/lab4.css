@@ -1,9 +1,6 @@
-@charset "UTF-8";
-/* CSS Document */
-
 body {
 	text-align: center;
-	background-color: #66ACB9;  
+	background-color: #BE78C1;  
 	
 }
 
@@ -12,14 +9,13 @@ a {
 	padding: 15px;
 	margin: 3px;
 	font-size: 130%;
-	background-color:  #878E9C; 
-	color:  #BBE7F8; 
+	background-color:  #512551; 
+	color:  #FFFFFF; 
 }
 
 
 a:hover {
 	font-size:170%;
-	background-color: #214062; 
-	color: #BBE7F10; 
+	background-color: #E0C4E7; 
+	color: #86007D; 
 }
-
