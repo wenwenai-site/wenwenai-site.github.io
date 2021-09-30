@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+width: 900px;
+margin: auto;
+text-align: center;
+}
+
+ #China_map_image {
+border: black 5px solid;
+}
+ 
+ #Shanghai {
+display: none;
+border: black 3px solid;
+}
+
+
+.choices {
+cursor: pointer;
+}
+
+body {
+	text-align: center;
+	background-color: #FAC1B4;  
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 130%;
+	background-color:  #F5B0B0; 
+	color:  #FF5154; 
+}
+
+
+a:hover {
+	font-size:170%;
+	background-color: #EE696B; 
+	color: #FFFFFF; 
+}

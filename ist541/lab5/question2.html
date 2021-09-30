@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Which City is the Largest in China?</title>
+<link href="css/Shanghai.css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+<script>
+ 
+$(function(){
+	
+	$("#option1").click( function(){
+         $("#feedback").html("<h2 style='color:red'> Beijing is the capital city, but not the largest! </h2>");
+         $("#Shanghai").css("display","none");
+});
+	
+	$("#option2").click( function(){
+    	$("#feedback").html("<h2 style='color:red'> Guangzhou has a lot of great food! </h2>");
+    	$("#Shanghai").css("display","none");
+});
+	
+	$("#option4").click( function(){
+    	$("#feedback").html("<h2 style='color:red'> Sanya is a great place to travel, but not the largest city. </h2>");
+    	$("#Shanghai").css("display","none");
+});
+
+	$("#option3").click( function(){
+        $("#feedback").html("<h2 style='color:green'> Correct! Shanghai is the largest city in China!</h2>");
+        $("#Shanghai").css("display","inline");
+});
+ 
+});
+
+</script>
+</head> <!--   You don’t need to copy this line, it just shows where to copy the above lines-->
+
+<body>
+	
+<div id="wrapper">
+	<h1><strong>Which City is the Largest in China?</strong></h1>
+	
+		<a href="question1.html"><strong> Fun Fact! </strong></a>
+		<a href="question2.html"><strong> Let's Check! </strong></a>
+	
+	<h3>Click on one of the following choices</h3>
+ 
+	<h2 id="option1" class="choices"> Beijing </h2>
+	<h2 id="option2" class="choices"> Guangzhou </h2>
+	<h2 id="option3" class="choices"> Shanghai </h2>
+	<h2 id="option4" class="choices"> Sanya </h2>
+ 
+	<div id="feedback"></div>
+	
+</div>
+	
+	<img id="Shanghai" src="img/Shanghai.jpeg"/>
+
+</body>
+</html>
