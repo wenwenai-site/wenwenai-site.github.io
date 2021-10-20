@@ -5,14 +5,14 @@
 a {
 	padding: 15px;
 	margin: 3px;
-	font-size: 130%;
+	font-size: 150%;
 	background-color:  #FEFFFC; 
 	color:  #DF7A00; 
 }
 
 
 a:hover {
-	font-size:150%;
+	font-size:170%;
 	background-color: #DF7A00; 
 	color: #FEFFFC; 
 }
